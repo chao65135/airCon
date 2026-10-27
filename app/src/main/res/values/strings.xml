@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">AirCon 空气与天气</string>
+
+    <string name="nav_home">首页</string>
+    <string name="nav_forecast">预报</string>
+    <string name="nav_air_quality">空气质量</string>
+    <string name="nav_cities">城市</string>
+    <string name="nav_settings">设置</string>
+
+    <string name="action_refresh">刷新</string>
+    <string name="action_add_city">添加城市</string>
+    <string name="action_search">搜索</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_delete">删除</string>
+    <string name="action_set_current">设为当前城市</string>
+    <string name="action_close">关闭</string>
+
+    <string name="hint_city_search">搜索城市名称，例如 北京 / Beijing</string>
+
+    <string name="label_location_permission">需要定位权限才能获取当前位置</string>
+    <string name="label_grant_permission">授予权限</string>
+    <string name="label_open_settings">前往系统设置</string>
+
+    <string name="msg_no_data">暂无数据</string>
+    <string name="msg_load_failed">加载失败：%1$s</string>
+    <string name="msg_offline_cache">当前为离线缓存数据</string>
+    <string name="msg_source_fallback">主数据源不可用，已降级到 %1$s</string>
+    <string name="msg_location_unavailable">无法获取定位，请手动选择城市</string>
+
+    <string name="section_current">当前天气</string>
+    <string name="section_hourly">逐小时预报</string>
+    <string name="section_daily">未来 %1$d 天</string>
+    <string name="section_pollutants">污染物浓度</string>
+    <string name="section_aqi_advice">健康建议</string>
+    <string name="section_about">关于与数据来源</string>
+
+    <string name="unit_celsius">摄氏度</string>
+    <string name="unit_fahrenheit">华氏度</string>
+
+    <string name="aqi_standard_cn">中国 AQI (HJ 633-2026)</string>
+    <string name="aqi_standard_us">美国 EPA AQI</string>
+    <string name="aqi_standard_eu">欧洲 AQI</string>
+
+    <!-- 首页指标 -->
+    <string name="label_feels_like">体感</string>
+    <string name="label_humidity">湿度</string>
+    <string name="label_wind">风速</string>
+    <string name="label_pressure">气压</string>
+    <string name="label_visibility">能见度</string>
+    <string name="label_uv_index">紫外线</string>
+    <string name="label_sunrise">日出</string>
+    <string name="label_sunset">日落</string>
+    <string name="label_updated_at">更新于 %1$s</string>
+    <string name="label_primary_pollutant">首要污染物</string>
+    <string name="label_aqi_value">AQI</string>
+    <string name="label_air_quality">空气质量</string>
+    <string name="label_precipitation">降水概率</string>
+    <string name="label_today">今天</string>
+    <string name="label_tomorrow">明天</string>
+
+    <string name="unit_kmh">km/h</string>
+    <string name="unit_hpa">hPa</string>
+    <string name="unit_km">km</string>
+    <string name="unit_microgram">μg/m³</string>
+    <string name="unit_milligram">mg/m³</string>
+
+    <!-- 空态与提示 -->
+    <string name="label_no_city">尚未添加城市</string>
+    <string name="label_add_first_city">前往「城市」页添加你关注的城市</string>
+    <string name="label_searching">搜索中…</string>
+    <string name="label_no_search_result">没有找到匹配的城市</string>
+    <string name="msg_aqi_unavailable">暂无空气质量数据</string>
+    <string name="msg_pollutants_unavailable">暂无污染物浓度数据</string>
+    <string name="msg_loading">正在获取数据…</string>
+
+    <!-- 城市页 -->
+    <string name="label_cities">城市</string>
+    <string name="label_saved_cities">已保存城市</string>
+    <string name="aqi_realtime_note">实时报口径：PM 取 24 小时均值，O₃ 取 8 小时均值</string>
+    <string name="label_pollutants_hourly">当前小时值</string>
+    <string name="label_current_city">当前</string>
+    <string name="label_remove_city">移除 %1$s</string>
+
+    <!-- 设置页 -->
+    <string name="label_settings">设置</string>
+    <string name="settings_temperature_unit">温度单位</string>
+    <string name="settings_aqi_standard">AQI 标准</string>
+    <string name="settings_primary_source">主数据源</string>
+    <string name="settings_refresh_interval">后台刷新间隔</string>
+    <string name="settings_refresh_interval_value">%1$d 分钟</string>
+    <string name="settings_qweather_title">和风天气（可选）</string>
+    <string name="settings_qweather_desc">填入 API Key 或 JWT 后可作为主数据源；未配置时自动使用 Open-Meteo。生产环境请通过自建后端代理，避免泄露密钥。</string>
+    <string name="settings_qweather_host">API Host</string>
+    <string name="settings_qweather_key">API Key</string>
+    <string name="settings_qweather_token">JWT Token</string>
+    <string name="settings_save">保存</string>
+    <string name="settings_saved">已保存</string>
+    <string name="settings_about_body">天气与空气质量数据来自 Open-Meteo（CC BY 4.0，非商业用途免费）。中国 AQI 依据 HJ 633—2026 在本地由污染物浓度计算，结果仅供参考。</string>
+</resources>
